@@ -14,7 +14,7 @@ export const Hero = () => {
           <div className="mt-6 text-sm text-gray-500">Starting at <span className="font-semibold">$300</span> • Maintenance plans from <span className="font-semibold">$49/mo</span></div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow p-6">
+        <div className="bg-white  shadow p-6 ">
           <div className="h-64 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400">Demo site preview</div>
           <ul className="mt-4 text-sm text-gray-600 space-y-2">
             <li>✅ Responsive design</li>

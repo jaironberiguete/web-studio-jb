@@ -1,7 +1,6 @@
 
 import React from 'react';
 
-
 export const Nav = () => {
   const [open, setOpen] = React.useState(false);
   return (
@@ -15,10 +14,10 @@ export const Nav = () => {
           <a href="#about" className="hover:text-rose-600">About</a>
           <a href="#contact" className="bg-rose-600 text-white px-3 py-2 rounded-md">Book a Call</a>
           {/* Language switcher */}
-          <div className="ml-4 flex items-center gap-2">
+          {/* <div className="ml-4 flex items-center gap-2">
             <button aria-label="English" className="text-sm px-2 py-1 rounded-md border">EN</button>
             <button aria-label="Spanish" className="text-sm px-2 py-1 rounded-md border">ES</button>
-          </div>
+          </div> */}
         </nav>
 
         <div className="md:hidden">
