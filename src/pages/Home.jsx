@@ -1,24 +1,17 @@
-import { AboutSection } from '../components/AboutSection';
-import { HeroSection } from '../components/HeroSection';
-import { Navbar } from '../components/Navbar';
-import { ProjectsSection } from '../components/ProjectsSection';
-import { SkillsSection } from '../components/SkillsSection';
-import { ThemeToggle } from '../components/ThemeToggle';
-import { StarBackground } from '@/components/StarBackground'
-import { ContactSection } from '../components/Contact';
-import { Footer } from '../components/Footer';
+import { Nav} from '../components/Nav';
+import { Hero } from '../components/Hero';
+import { Services } from '../components/Services';
+
 export const Home = () => {
-    return ( <div className=''> 
+    return ( <div className="min-h-screen bg-white text-gray-900"> 
         {/* Main Content */}
          <main>
-         <HeroSection/>
-         <AboutSection/>
-        <ProjectsSection/>
-         <SkillsSection/>
-         <ContactSection/>
+          <Nav/>
+          <Hero/>
+          <Services/>
          </main>
         {/* Footer */}
-        <Footer/>
 
     </div>
     );
+};
