@@ -6,9 +6,9 @@ export const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-16">
+    <section id="portfolio" className="py-16 bg-black md:py-40">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold">Portfolio / Demos</h2>
+        <h2 className="text-3xl font-bold text-white">Portfolio | Demos</h2>
         <div className="mt-6 grid md:grid-cols-3 gap-6">
           {items.map((it) => (
             <div key={it.title} className="bg-white rounded-lg shadow-sm overflow-hidden">
@@ -17,7 +17,7 @@ export const Portfolio = () => {
                 <h3 className="font-semibold">{it.title}</h3>
                 <p className="text-sm text-gray-600 mt-2">{it.desc}</p>
                 <div className="mt-4 text-sm">
-                  <a className="text-rose-600 hover:underline" href="#">Live demo</a>
+                  <a className="text-red-700 hover:underline" href="#">Live demo</a>
                 </div>
               </div>
             </div>

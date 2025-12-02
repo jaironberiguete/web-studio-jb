@@ -1,6 +1,6 @@
 export const Pricing = () => {
   return (
-    <section id="pricing" className="py-16 bg-slate-50">
+    <section id="pricing" className="py-16 md:py-40 ">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold">Pricing & Plans</h2>
         <div className="mt-8 grid md:grid-cols-3 gap-6">
